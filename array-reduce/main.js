@@ -50,5 +50,6 @@ const compositeTraits = (previous, current) => {
   return previous;
 };
 
-const composite = traits.reduce(compositeTraits);
+const composite = traits.reduce(compositeTraits, {});
 console.log('composite :', composite);
+console.log('traits :', traits);
