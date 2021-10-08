@@ -11,6 +11,5 @@ var $root = document.querySelector('#root');
 
 ReactDOM.render(
   element,
-  $root,
-  React.createElement
+  $root
 );
